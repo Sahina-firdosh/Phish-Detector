@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: #002855;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    position: fixed;
+}
+
+nav img{ 
+    height: 12vh; 
+    width: 12vh;
+    border-radius: 38px;
+    margin-top: 1.5vh;
+    margin-left: 10vh;
+    margin-right: 2vh;
+    background-color:#f8f674;
+} 
+
+nav p{
+    color: #f8f674;
+    /* color: white; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 6vh;
+    font-weight: bold;
+    margin-top: 1.5vh;
+    cursor: pointer;
+}
+
+nav p span{
+    color: #2dbed4;
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5vh;
+}
+
+.container{
+    display: flex;
+}
+
+.conatainer_left{
+    float: left;
+    width: 60%;
+    margin-top: 16vh;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002855;
+}
+
+.conatainer_left header h1{
+    font-size: 6.5vh;
+    margin-bottom: 0;
+    color: #FF8C00;
+}
+
+.conatainer_left header p{
+    font-size: 2.7vh;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
+
+.conatainer_left label{
+    font-size: 3vh;
+}
+
+.conatainer_left input{
+    height: 1vh;
+    width: 45vw;
+    padding: 3vh;
+    margin-top: 2vh;
+    font-size: 2.7vh;
+    background-color: #E0F7FF;
+    color: #333333;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.conatainer_left button{
+    background-color: #FF8C00;
+    color: white;
+    font-size: 2.7vh;
+    font-weight: bold;
+    height: 5.8vh;
+    width: 10vw;
+    border: 1px solid #9c9b9b;
+    border-radius: 10px;
+    margin-top: 3vh;
+}
+
+.conatainer_left button:hover{
+    cursor: pointer;
+    background-color: rgb(15, 109, 15);
+}
+
+.working{
+    margin-top: 6.5vh;
+    margin-left: 4vh;
+    margin-right: 3vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    font-weight: normal;
+    /* border: 1px solid gainsboro; */
+    border-radius: 10px;
+    /* background-color: #E0F7FF; */
+}
+
+.conatainer_left h3{
+    margin-bottom: 0;
+}
+
+.steps{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    text-align: center;
+}
+
+.steps p{
+    background-color: #E0F7FF;
+    /* background-color: white; */
+    border: 1px solid gainsboro;
+    padding: 1vh;
+    width: 30%;
+    margin-bottom: 2vh;
+    font-size: 2.1vh;
+    border-radius: 10px;
+}
+
+.conatainer_right{
+    float: right;
+    width: 40%;
+    height: 87vh;
+    margin-top: 13vh;
+    margin-right: 3vh;
+    text-align: center;
+}
+
+.conatainer_right img{
+    height: 73vh;
+    width: 80vh;
+    border-radius: 40px;
+    margin-top: 1.5vh;
+    border: 3px solid gainsboro;
+}
+
+footer{
+    height: 7vh;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    background-color: #002855; 
+    color: white;
+    font-size: 2.1vh;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+footer p{
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #f8f674;
+}
